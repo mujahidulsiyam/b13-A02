@@ -21,8 +21,7 @@
     color:white;
 }
 #tech_wave{
-    width: 219px;
-    height: 32px;
+    font-size: 60px;
 }
 .wavecolor{
     background: linear-gradient(to left, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
