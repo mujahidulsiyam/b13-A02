@@ -286,3 +286,8 @@ body{
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 20px;
 }
+.social_media{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
