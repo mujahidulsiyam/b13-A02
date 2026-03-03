@@ -148,4 +148,141 @@ body{
     justify-content: center;
     align-items: center;
     gap: 80px;
+    color: white;
+}
+.big_letter{
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgba(0, 255, 136, 1);
+}
+/* Grid Part */
+
+.beforegrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.grid_part{
+    width: 70%;
+}
+.why_choose{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.box1{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    gap: 30px auto;
+    padding: 10px;
+}
+.box2{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    gap: 30px auto;
+    padding: 10px;
+}
+.box3{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    gap: 30px auto;
+    padding: 10px;
+}
+.box4{
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    gap: 30px auto;
+    padding: 10px;
+}
+.box5{
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    gap: 30px auto;
+    padding: 10px;
+}
+.grid_image {
+    padding: 10px;
+    margin: 5px 30px;
+}
+/* Feature Episodes */
+.before_feature{
+    color: white;
+}
+.feature_episodes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.each_card{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+#text_center{
+    text-align: center;
+    font-size: 40px;
+}
+.epiesode_secondary_text{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+     color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.epiesode_time{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -5px;
+}
+.only_time{
+    color: rgba(0, 255, 136, 1);
+    font-size: 14px;
+    transform: translateX(-10px);
+}
+/* Meet Host */
+
+.before_meet_host{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 70%;
+    color: white;
+    margin: 50px auto;
+}
+.text_center{
+    text-align: center;
+    font-size: 40px;
+}
+.meet_host_position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px    auto;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
 }
